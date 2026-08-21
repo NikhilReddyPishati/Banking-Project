@@ -5,7 +5,7 @@ def show_balance():    #This is the new function
     show=int(input("please enter your secret 4 digit pin"))  #Print the statements
     if show == pin:     #this compares input and pin
         print(f"Available balance is ${balance}")   #Print Statements
-    else:
+    else:   #Else condition 
         print("wrong pin")
 def withdraw():
     withdraw_amount=int(input("please enter amount "))
