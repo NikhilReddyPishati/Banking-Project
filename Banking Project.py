@@ -3,7 +3,7 @@ import time  #Imports time in the sense of sleep
 import datetime  #Import Time and date
 def show_balance():    #This is the new function
     show=int(input("please enter your secret 4 digit pin"))  #Print the statements
-    if show == pin:
+    if show == pin:     #this compares input and pin
         print(f"Available balance is ${balance}")
     else:
         print("wrong pin")
