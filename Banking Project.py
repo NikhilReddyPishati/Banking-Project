@@ -6,8 +6,8 @@ def show_balance():    #This is the new function
     if show == pin:     #this compares input and pin
         print(f"Available balance is ${balance}")   #Print Statements
     else:   #Else condition 
-        print("wrong pin")
-def withdraw():
+        print("wrong pin")  
+def withdraw():     #New Function
     withdraw_amount=int(input("please enter amount "))
     if withdraw_amount > balance:
         print(f"Insufficient funds available balance is {balance}")
