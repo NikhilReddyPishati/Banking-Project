@@ -1,6 +1,6 @@
 #Banking project
 import time  #Imports time
-import datetime
+import datetime  #Import Time and date
 def show_balance():
     show=int(input("please enter your secret 4 digit pin"))
     if show == pin:
