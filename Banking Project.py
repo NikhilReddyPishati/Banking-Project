@@ -1,5 +1,5 @@
 #Banking project
-import time  #Imports time
+import time  #Imports time in the sense of sleep
 import datetime  #Import Time and date
 def show_balance():
     show=int(input("please enter your secret 4 digit pin"))
