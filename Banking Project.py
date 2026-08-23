@@ -15,7 +15,7 @@ def withdraw():     #New Function
         print(f"sorry sir/mam You need to maintain minimum balance and Available balance is {balance}") #Prints
     elif withdraw_amount < balance: #Again compares
         pin = int(input("please enter your secret pin :")) #If condition true follows
-        if pin == pin:
+        if pin == pin:  #Pin is previously Stored
             print(f"Amount withdrawed and available balance is:${balance-withdraw_amount}")
         else:
             print(f"Incorrect pin please start the process again")
