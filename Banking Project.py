@@ -11,7 +11,7 @@ def withdraw():     #New Function
     withdraw_amount=int(input("please enter amount "))   
     if withdraw_amount > balance:   #compares the difference 
         print(f"Insufficient funds available balance is {balance}").  #Prints Insufficient Funds
-    elif withdraw_amount == balance:
+    elif withdraw_amount == balance:  #Again Compares the
         print(f"sorry sir/mam You need to maintain minimum balance and Available balance is {balance}")
     elif withdraw_amount < balance:
         pin = int(input("please enter your secret pin :"))
