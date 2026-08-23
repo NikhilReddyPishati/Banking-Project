@@ -14,7 +14,7 @@ def withdraw():     #New Function
     elif withdraw_amount == balance:  #Again Compares the Value
         print(f"sorry sir/mam You need to maintain minimum balance and Available balance is {balance}") #Prints
     elif withdraw_amount < balance: #Again compares
-        pin = int(input("please enter your secret pin :"))
+        pin = int(input("please enter your secret pin :")) #If condition true follows
         if pin == pin:
             print(f"Amount withdrawed and available balance is:${balance-withdraw_amount}")
         else:
