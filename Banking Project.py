@@ -9,7 +9,7 @@ def show_balance():    #This is the new function
         print("wrong pin")  
 def withdraw():     #New Function
     withdraw_amount=int(input("please enter amount "))   
-    if withdraw_amount > balance:   #compares
+    if withdraw_amount > balance:   #compares the difference 
         print(f"Insufficient funds available balance is {balance}")
     elif withdraw_amount == balance:
         print(f"sorry sir/mam You need to maintain minimum balance and Available balance is {balance}")
