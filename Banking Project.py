@@ -22,7 +22,7 @@ def withdraw():     #New Function
 def deposit():
     deposit_money = int(input("Please Enter the amount you want to deposit :$ "))
     pin = int(input("please enter your secret pin "))
-    if pin == 0000:
+    if pin == 0000: #This is the 
             print(f"Amount deposited and available balance is:${balance+deposit_money}")
     else:
         print("Incorrect pin please start the process again")
