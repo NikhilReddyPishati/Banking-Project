@@ -19,7 +19,7 @@ def withdraw():     #New Function
             print(f"Amount withdrawed and available balance is:${balance-withdraw_amount}")
         else:
             print(f"Incorrect pin please start the process again")
-def deposit(): #It prints Incorrect
+def deposit(): #It prints Incorrect pin
     deposit_money = int(input("Please Enter the amount you want to deposit :$ "))
     pin = int(input("please enter your secret pin "))
     if pin == 0000: #It verifies the secret pin 
