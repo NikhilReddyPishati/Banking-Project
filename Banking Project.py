@@ -8,6 +8,7 @@ def show_balance(balance):
         print(f"Available balance is ${balance}")
     else:
         print("Wrong pin")
+        
 def withdraw(balance):
     pin = int(input("Please enter your secret pin :"))
     if pin == 1111 :
@@ -23,6 +24,7 @@ def withdraw(balance):
         return withdraw_amount
     else:
         print("Try Again")
+        
 def deposit(balance):
     pin=int(input("Please Enter Your Pin"))
     if pin == 0000:
@@ -32,10 +34,12 @@ def deposit(balance):
         return 0
     else:
         return amount
+        
 def help():
     print("please contact bank@gmail.com")
 #date =datetime.datetime.now()
 #print(date)
+
 def main():
     balance = 5
     is_running = True
