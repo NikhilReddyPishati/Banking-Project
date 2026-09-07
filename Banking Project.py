@@ -7,15 +7,15 @@ def show_balance(balance):
     if show == 0000:
         print(f"Available balance is ${balance}")
     else:
-        print("wrong pin")
+        print("Wrong pin")
 def withdraw(balance):
-    pin = int(input("please enter your secret pin :"))
+    pin = int(input("Please enter your secret pin :"))
     if pin == 0000 :
-        withdraw_amount = int(input("please enter amount "))
+        withdraw_amount = int(input("Please enter amount "))
         if withdraw_amount > balance:
           print(f"Insufficient funds available balance is {balance}")
         elif withdraw_amount == balance:
-          print(f"sorry sir/mam You need to maintain minimum balance and Available balance is {balance}")
+          print(f"Sorry sir/mam You need to maintain minimum balance and Available balance is {balance}")
         elif withdraw_amount < balance:
             print(f"Amount withdrawed and available balance is:${balance-withdraw_amount}")
         else:
@@ -26,9 +26,9 @@ def withdraw(balance):
 def deposit(balance):
     pin=int(input("Please Enter Your Pin"))
     if pin == 0000:
-        amount = float(input("enter your deposit amount: "))
+        amount = float(input("Enter your deposit amount: "))
     if amount <= 0:
-        print("invalid amount")
+        print("Invalid Amount")
         return 0
     else:
         return amount
@@ -60,7 +60,7 @@ def main():
         elif choice == '5':
             is_running = False
         else:
-            print("it is an invalid choice please try again")
+            print("It is an invalid choice please try again")
     print("Thank You")
     
 if __name__ == '__main__':
