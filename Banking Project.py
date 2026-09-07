@@ -3,14 +3,14 @@ import time  #Imports time in the sense of sleep
 import datetime  #Import Time and date
 
 def show_balance(balance):
-    show=int(input("please enter your secret 4 digit pin: "))
-    if show == 0000:
+    show=int(input("Please enter your secret 4 digit pin: "))
+    if show == 1111:
         print(f"Available balance is ${balance}")
     else:
         print("Wrong pin")
 def withdraw(balance):
     pin = int(input("Please enter your secret pin :"))
-    if pin == 0000 :
+    if pin == 1111 :
         withdraw_amount = int(input("Please enter amount "))
         if withdraw_amount > balance:
           print(f"Insufficient funds available balance is {balance}")
