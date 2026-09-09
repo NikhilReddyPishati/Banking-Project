@@ -18,7 +18,7 @@ def withdraw(balance):
         elif withdraw_amount == balance:
           print(f"Sorry sir/mam You need to maintain minimum balance and Available balance is {balance}")
         elif withdraw_amount < balance:
-            print(f"Amount withdrawed and available balance is:${balance-withdraw_amount}")
+            print(f"Amount withdrawed and Available balance is:${balance-withdraw_amount}")
         else:
             print("Incorrect pin")
         return withdraw_amount
