@@ -19,6 +19,10 @@ def withdraw(balance):
           print(f"Sorry sir/mam You need to maintain minimum balance and Available balance is {balance}")
         elif withdraw_amount < balance:
             print(f"Amount Withdrawed and Available balance is:${balance-withdraw_amount}")
+            Balance = input("Do You want to Check Available Balance(y/n)")
+            if Balance == y:
+              print("Available balance :
+             
         else:
             print("Incorrect pin")
         return withdraw_amount
