@@ -1,27 +1,40 @@
-
 import time  #Imports time in the sense of sleep
 import datetime  #Import Time and date
 
 def show_balance(balance):
-    show=int(input("Please enter your secret 4 digit pin: "))
+    try:
+            show = int(input("Please Enter your secret pin :"))
+    except ValueError:
+        print("Invalid input! Please Enter numbers only.")
+        return 0
     if show == 1111:
         print(f"Available balance is ${balance}")
     else:
         print("Wrong pin")
         
 def withdraw(balance):
-    pin = int(input("Please Enter your secret pin :"))
+    try:
+        pin = int(input("Please Enter your secret pin :"))
+    except ValueError:
+        print("Invalid input! Please Enter numbers only.")
+        return 0
     if pin == 1111 :
         withdraw_amount = int(input("Please Enter Amount "))
         if withdraw_amount > balance:
           print(f"Insufficient funds,Available balance is :$ {balance}")
+          return 0
         elif withdraw_amount == balance:
           print(f"Sorry sir/mam You need to maintain minimum balance and Available balance is {balance}")
+          return 0
         elif withdraw_amount < balance:
-            print(f"Amount Withdrawed and Available balance is:${balance-withdraw_amount}")
-            Balance = input("Do You want to Check Available Balance(y/n)").lower
+            print("Please Wait")
+            time.sleep(1)
+            print("Amount Withdrawed")
+            Balance = input("Do You want to Check Available Balance(y/n)")
+            Balance = Balance.lower()
             if Balance == 'y':
-              print("Available balance :{balance-withdrawed_amount}")
+              print(f"Available Balance :${balance - withdraw_amount}")
+              print("Thank You")
             else:
               print("Thank you")
         else:
@@ -29,16 +42,24 @@ def withdraw(balance):
         return withdraw_amount
     else:
         print("Try Again")
+        return 0
         
 def deposit(balance):
-    pin=int(input("Please Enter Your Pin"))
-    if pin == 0000:
-        amount = float(input("Enter your deposit amount: "))
-    if amount <= 0:
-        print("Invalid Amount")
+    try:
+        pin = int(input("Please Enter your secret pin :"))
+    except ValueError:
+        print("Invalid input! Please Enter numbers only.")
         return 0
+    if pin == 1111:
+        amount = float(input("Enter your deposit amount: "))
+        if amount <= 0:
+            print("Invalid Amount")
+            return 0
+        else:
+            return amount
     else:
-        return amount
+        print("Incorrect Pin")
+        return 0
         
 def help():
     print("please contact to bank@gmail.com")
