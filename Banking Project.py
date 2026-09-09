@@ -14,7 +14,7 @@ def withdraw(balance):
     if pin == 1111 :
         withdraw_amount = int(input("Please Enter Amount "))
         if withdraw_amount > balance:
-          print(f"Insufficient funds,Available balance is : {balance}")
+          print(f"Insufficient funds,Available balance is :$ {balance}")
         elif withdraw_amount == balance:
           print(f"Sorry sir/mam You need to maintain minimum balance and Available balance is {balance}")
         elif withdraw_amount < balance:
