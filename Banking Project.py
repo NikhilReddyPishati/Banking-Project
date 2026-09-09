@@ -22,7 +22,8 @@ def withdraw(balance):
             Balance = input("Do You want to Check Available Balance(y/n)")
             if Balance == y:
               print("Available balance :{balance-withdrawed_amount}")
-             
+            else:
+              print("Thank you"
         else:
             print("Incorrect pin")
         return withdraw_amount
