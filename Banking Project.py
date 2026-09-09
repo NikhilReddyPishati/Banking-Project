@@ -10,9 +10,9 @@ def show_balance(balance):
         print("Wrong pin")
         
 def withdraw(balance):
-    pin = int(input("Please enter your secret pin :"))
+    pin = int(input("Please Enter your secret pin :"))
     if pin == 1111 :
-        withdraw_amount = int(input("Please enter Amount "))
+        withdraw_amount = int(input("Please Enter Amount "))
         if withdraw_amount > balance:
           print(f"Insufficient funds available balance is {balance}")
         elif withdraw_amount == balance:
