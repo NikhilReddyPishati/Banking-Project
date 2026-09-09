@@ -20,7 +20,7 @@ def withdraw(balance):
         elif withdraw_amount < balance:
             print(f"Amount Withdrawed and Available balance is:${balance-withdraw_amount}")
             Balance = input("Do You want to Check Available Balance(y/n)").lower
-            if Balance == y:
+            if Balance == 'y':
               print("Available balance :{balance-withdrawed_amount}")
             else:
               print("Thank you")
