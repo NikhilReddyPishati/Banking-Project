@@ -31,7 +31,7 @@ def withdraw(balance):
             time.sleep(1)
             print("Amount Withdrawed")
             Balance = input("Do You want to Check Available Balance(y/n)")
-            Balance = Balance.lower()
+            Balance = Balance.lower()#it converts
             if Balance == 'y':
               print(f"Available Balance :${balance - withdraw_amount}")
               print("Thank You")
