@@ -2,3 +2,4 @@
 About Bankingt Whole ATM Options
 ## **It Provides the ATM Banking Options to the user**
 - **It Interacts with user**
+- **Takes input from the user**
