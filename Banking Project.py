@@ -63,7 +63,7 @@ def deposit(balance):
         
 def help():
     print("Please contact bank@gmail.com")
-#date =datetime.datetime.now()
+#date = datetime.datetime.now()
 #print(date)
 
 def main():
