@@ -24,7 +24,7 @@ def withdraw(balance):
           print(f"Insufficient funds,Available balance is :$ {balance}")
           return 0
         elif withdraw_amount == balance:
-          print(f"Sorry sir/mam You need to maintain minimum balance and Available balance is {balance}")
+          print(f"Sir/Mam You need to maintain minimum balance and Available balance is {balance}")
           return 0
         elif withdraw_amount < balance:
             print("Please Wait")
