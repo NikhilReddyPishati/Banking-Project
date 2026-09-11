@@ -4,4 +4,4 @@ About Bankingt Whole ATM Options
 - **It Interacts with user**
 - **Takes input (Pin,Amount) from the user**
 - **Provides multiple options to the user,Where user need to select single option from it**
-- **And it verifies 
+- **And it verifies the PIN
