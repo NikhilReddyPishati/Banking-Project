@@ -8,5 +8,6 @@ About Bankingt Whole ATM Options
 - **Show Balance**
 - **Withdraw Amount**
 - **Deposit**
+- **Help**
 - **And it verifies the PIN where User Need to Enter it**
 - **If PIN is wrong It Prints Incorrect Message**
