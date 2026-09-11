@@ -5,4 +5,4 @@ About Bankingt Whole ATM Options
 - **Takes input (Pin,Amount) from the user**
 - **Provides multiple options to the user,Where user need to select single option from it**
 - **And it verifies the PIN where User Need to Enter it**
-- **If PIN is wrong It Prints Incorrect
+- **If PIN is wrong It Prints Incorrect Message
