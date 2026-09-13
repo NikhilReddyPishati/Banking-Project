@@ -16,3 +16,4 @@ About Bankingt Whole ATM Options
 - **If PIN is Verified It Prints the Available Balance**
 ## Withdraw Amount option-2
 - **It directly Asks For PIN**
+- **It Verifies the PIN Entered**
