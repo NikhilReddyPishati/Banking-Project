@@ -18,4 +18,5 @@ About Bankingt Whole ATM Options
 - **It directly Asks For PIN**
 - **It Verifies the PIN Entered**
 - **If PIN is Verified it asks for Amount**
--**If PIN is Incorrect It Prints default msg**
+- **If PIN is Incorrect It Prints default msg**
+- **It compares the Entered Amount with Available Balance in the Account**
