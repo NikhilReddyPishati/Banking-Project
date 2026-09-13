@@ -17,3 +17,4 @@ About Bankingt Whole ATM Options
 ## Withdraw Amount option-2
 - **It directly Asks For PIN**
 - **It Verifies the PIN Entered**
+- **If PIN is Verified it asks for Amount**
