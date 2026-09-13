@@ -20,3 +20,4 @@ About Bankingt Whole ATM Options
 - **If PIN is Verified it asks for Amount**
 - **If PIN is Incorrect It Prints default msg**
 - **It compares the Entered Amount with Available Balance in the Account**
+- **If Amount is greater then Available Balance it just prints a default msg,If Amount is equals to Available Balance
