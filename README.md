@@ -1,4 +1,4 @@
-# Just a Python Project without any HTML,CSS,Terminal is the main Interface to it
+# Just a Python Project without any HTML,CSS.Terminal is the main Interface to it
 # Banking-Project
 About Bankingt Whole ATM Options
 ## **It Provides the ATM Banking Options to the user**
