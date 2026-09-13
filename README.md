@@ -13,4 +13,4 @@ About Bankingt Whole ATM Options
 ## Show Balance option-1
 - **And it verifies the PIN where User Need to Enter it**
 - **If PIN is wrong It Prints Incorrect Message**
-
+- **If PIN is Verified It Prints the Available Balance**
