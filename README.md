@@ -10,5 +10,7 @@ About Bankingt Whole ATM Options
 - **Deposit**
 - **Help**
 # Functions
+##Show Balance option-1
 - **And it verifies the PIN where User Need to Enter it**
 - **If PIN is wrong It Prints Incorrect Message**
+
