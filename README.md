@@ -26,3 +26,4 @@ About Bankingt Whole ATM Options
 - **If user input is equals to (y) it prints available balance if the user input is equals to (n) it prints Thank You**
 
 ## Deposit Amount Option-3
+- **It Asks For PIN**
