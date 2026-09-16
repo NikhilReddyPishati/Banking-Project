@@ -24,4 +24,5 @@ About Bankingt Whole ATM Options
 - **If Amount is greater then Available Balance it just prints a default msg,If Amount is equals to Available Balance it just prints "Maintain The minimum balance", If the balance is less than the available balance it withdraws amount and subtracts the Withdrawed amount from the present balance**
 - **After that it asks user to choose an option like (y/n) to see available balance**
 - **If user input is equals to (y) it prints available balance if the user input is equals to (n) it prints Thank You**
+
 ## Deposit Amount Option-3
