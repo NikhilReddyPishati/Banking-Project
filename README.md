@@ -29,4 +29,4 @@ About Bankingt Whole ATM Options
 - **It Asks For PIN**
 - **Compares it with Original PIN if it verified it asks For Amount If not it prints Invalid PIN**
 - **And It Prints Total Available Balance Included Deposited Amount**
-- **And prints Thank You
+- **And prints Thank You**
