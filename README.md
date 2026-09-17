@@ -27,6 +27,6 @@ About Bankingt Whole ATM Options
 
 ## Deposit Amount Option-3
 - **It Asks For PIN**
-- **Compares it with Original PIN if it verifies it asks For Amount If not it prints Invalid PIN**
+- **Compares it with Original PIN if it verified it asks For Amount If not it prints Invalid PIN**
 - **And It Prints Total Available Balance Included Deposited Amount**
 - **
