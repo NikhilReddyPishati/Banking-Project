@@ -3,7 +3,7 @@
 About Banking Whole ATM Options
 ## **It Provides ATM Options to the user**
 - **It Interacts with user**
-- **Takes input (Pinand Amount) from the user**
+- **Takes input (Pin and Amount) from the user**
 - **Provides multiple options to the user,Where user need to select single option from it**
 # Options
 - **Show Balance**
