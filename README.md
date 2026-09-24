@@ -1,7 +1,7 @@
 # Just a Python Project without any HTML,CSS.Just Terminal is the main Interface to it
 # Banking-Project
 About Banking Whole ATM Options
-## **It Provides the ATM Options to the user**
+## **It Provides ATM Options to the user**
 - **It Interacts with user**
 - **Takes input (Pin,Amount) from the user**
 - **Provides multiple options to the user,Where user need to select single option from it**
