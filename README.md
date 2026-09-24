@@ -10,6 +10,7 @@ About Banking Whole ATM Options
 - **Withdraw Amount**
 - **Deposit**
 - **Help**
+
 # Functions
 ## Show Balance option-1
 - **And it verifies the PIN where User Need to Enter it**
