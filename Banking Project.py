@@ -3,7 +3,7 @@ import datetime  #Import Time and date
 
 def show_balance(balance):
     try:
-            show = int(input("Please Enter your secret pin :"))
+            show = int(input("Please Enter your secret Four pin :"))
     except ValueError:
         print("Invalid input! Please Enter numbers only.")
         return 0
