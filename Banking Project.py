@@ -14,7 +14,7 @@ def show_balance(balance):
         
 def withdraw(balance):
     try:
-        pin = int(input("Please Enter your secret Four pin :"))
+        pin = int(input("Please Enter your secret Four digit pin :"))
     except ValueError:
         print("Invalid input! Please Enter numbers only.")
         return 0
