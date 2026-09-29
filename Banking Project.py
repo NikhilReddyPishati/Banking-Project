@@ -46,7 +46,7 @@ def withdraw(balance):
         
 def deposit(balance):
     try:
-        pin = int(input("Please Enter your secret pin :"))
+        pin = int(input("Please Enter your secret Four pin :"))
     except ValueError:
         print("Invalid input! Please Enter numbers only.")
         return 0
