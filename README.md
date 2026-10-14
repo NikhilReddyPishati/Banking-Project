@@ -12,11 +12,11 @@ About Banking Whole ATM Options
 - **Help**
 
 # Functions
-## Show Balance option-1
+## Show Balance option -1
 - **And it verifies the PIN where User Need to Enter it**
 - **If PIN is wrong It Prints Incorrect Message**
 - **If PIN is Verified It Prints the Available Balance**
-## Withdraw Amount option- 2
+## Withdraw Amount option - 2
 - **It directly Asks For PIN**
 - **It Verifies the PIN Entered**
 - **If PIN is Verified it asks for Amount**
